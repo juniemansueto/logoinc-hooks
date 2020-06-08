@@ -1,0 +1,40 @@
+{
+    "name": "larapack/logoinc-hooks",
+    "description": "Hooks integrated in Logoninc",
+    "keywords": ["laravel", "hooks", "logoinc"],
+    "license": "MIT",
+    "homepage": "https://larapack.io/",
+    "support": {
+        "issues": "https://github.com/larapack/logoinc-hooks/issues",
+        "source": "https://github.com/larapack/logoinc-hooks"
+    },
+    "authors": [
+        {
+            "name": "Junie Mansueto",
+            "email": "juniecares@gmail.com"
+        }
+    ],
+    "require": {
+        "larapack/hooks": "~1.0.2"
+    },
+    "require-dev": {
+        "orchestra/testbench": ">=3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larapack\\LogoincHooks\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Larapack\\VoyagerHooks\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larapack\\VoyagerHooks\\VoyagerHooksServiceProvider"
+            ]
+        }
+    }
+}
