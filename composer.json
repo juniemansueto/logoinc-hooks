@@ -1,12 +1,11 @@
 {
-    "name": "larapack/logoinc-hooks",
+    "name": "ilogo/logoinc-hooks",
     "description": "Hooks integrated in Logoninc",
     "keywords": ["laravel", "hooks", "logoinc"],
     "license": "MIT",
-    "homepage": "https://larapack.io/",
     "support": {
-        "issues": "https://github.com/larapack/logoinc-hooks/issues",
-        "source": "https://github.com/larapack/logoinc-hooks"
+        "issues": "https://github.com/juniemansueto/logoinc-hooks/issues",
+        "source": "https://github.com/juniemansueto/logoinc-hooks"
     },
     "authors": [
         {
