@@ -27,13 +27,13 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Larapack\\VoyagerHooks\\Tests\\": "tests/"
+            "Larapack\\LogoincHooks\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Larapack\\VoyagerHooks\\VoyagerHooksServiceProvider"
+                "Larapack\\LogoincHooks\\LogoincHooksServiceProvider"
             ]
         }
     }
