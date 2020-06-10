@@ -21,18 +21,18 @@
     },
     "autoload": {
         "psr-4": {
-            "ILOGO\\Logoinchooks\\": "src/"
+            "ILOGO\\Logoinc-hooks\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ILOGO\\Logoinchooks\\Tests\\": "tests/"
+            "ILOGO\\Logoinc-hooks\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ILOGO\\LogoincHooks\\LogoincHooksServiceProvider"
+                "ILOGO\\Logoinc-hooks\\LogoincHooksServiceProvider"
             ]
         }
     }
