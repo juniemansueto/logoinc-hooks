@@ -68,7 +68,7 @@ class LogoincHooksServiceProvider extends ServiceProvider
 
     public function addHookRoute($router)
     {
-        $namespacePrefix = '\\Larapack\\LogoincHooks\\Controllers\\';
+        $namespacePrefix = '\\Logo\\LogoincHooks\\Controllers\\';
 
         $router->get('hooks', ['uses' => $namespacePrefix.'HooksController@index', 'as' => 'hooks']);
         $router->get('hooks/{name}/enable', ['uses' => $namespacePrefix.'HooksController@enable', 'as' => 'hooks.enable']);
@@ -116,7 +116,7 @@ class LogoincHooksServiceProvider extends ServiceProvider
 
     public function addHookPermissions()
     {
-        Voyager::model('Permission')::firstOrCreate([
+        Logoinc::model('Permission')::firstOrCreate([
             'key'        => 'browse_hooks',
             'table_name' => null,
         ]);
@@ -129,10 +129,10 @@ class LogoincHooksServiceProvider extends ServiceProvider
 
     public function enabled()
     {
-        if (config('voyager-hooks.enabled', true)) {
+        if (config('logoinc-hooks.enabled', true)) {
             return config('hooks.enabled', true);
         }
 
-        return config('voyager-hooks.enabled', true);
+        return config('logoinc-hooks.enabled', true);
     }
 }
