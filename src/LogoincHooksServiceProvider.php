@@ -1,6 +1,6 @@
 <?php
 
-namespace Larapack\LogoincHooks;
+namespace Logoinc\LogoincHooks;
 
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\Facades\Artisan;

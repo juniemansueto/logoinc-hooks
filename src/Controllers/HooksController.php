@@ -1,6 +1,6 @@
 <?php
 
-namespace Larapack\LogoincHooks\Controllers;
+namespace Logoinc\LogoincHooks\Controllers;
 
 use Carbon\Carbon;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;

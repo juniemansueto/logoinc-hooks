@@ -1,5 +1,5 @@
 {
-    "name": "ilogo/logoinchooks",
+    "name": "ilogo/logoinc-hooks",
     "description": "Hooks integrated in Logoninc",
     "keywords": ["laravel", "hooks", "logoinc"],
     "license": "MIT",
@@ -21,18 +21,18 @@
     },
     "autoload": {
         "psr-4": {
-            "ILOGO\\Logoinc-hooks\\": "src/"
+            "Ilogo\\LogoincHooks\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ILOGO\\Logoinc-hooks\\Tests\\": "tests/"
+            "Ilogo\\LogoincHooks\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ILOGO\\Logoinc-hooks\\LogoincHooksServiceProvider"
+                "Ilogo\\LogoincHooks\\LogoincHooksServiceProvider"
             ]
         }
     }
