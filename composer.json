@@ -1,6 +1,6 @@
 {
     "name": "logo/logoinc-hooks",
-    "description": "Hooks integrated in Logoninc",
+    "description": "Hooks integrated in Logoinc",
     "keywords": ["laravel", "hooks", "logoinc"],
     "license": "MIT",
     "support": {
