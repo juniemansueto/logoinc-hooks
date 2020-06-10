@@ -1,6 +1,6 @@
 <?php
 
-namespace Logoinc\LogoincHooks\Controllers;
+namespace Logo\LogoincHooks\Controllers;
 
 use Carbon\Carbon;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;

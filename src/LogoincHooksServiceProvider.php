@@ -1,6 +1,6 @@
 <?php
 
-namespace Logoinc\LogoincHooks;
+namespace Logo\LogoincHooks;
 
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\Facades\Artisan;
