@@ -1,10 +1,6 @@
 {
     "name": "logo/logoinc-hooks",
-<<<<<<< HEAD
-    "description": "Hooks integrated in Logoninc",
-=======
     "description": "Hooks integrated in Logoinc",
->>>>>>> 12d48c2bd3b586442d9dbed9a54860bf6c3133d0
     "keywords": ["laravel", "hooks", "logoinc"],
     "license": "MIT",
     "support": {
@@ -25,30 +21,18 @@
     },
     "autoload": {
         "psr-4": {
-<<<<<<< HEAD
-            "Logo\\LogoincHooks\\": "src/"
-=======
-            "logo\\LogoincHooks\\": "src/"
->>>>>>> 12d48c2bd3b586442d9dbed9a54860bf6c3133d0
+            "Logo\\LogoincHooks\\": "src/
         }
     },
     "autoload-dev": {
         "psr-4": {
-<<<<<<< HEAD
             "Logo\\LogoincHooks\\Tests\\": "tests/"
-=======
-            "logo\\LogoincHooks\\Tests\\": "tests/"
->>>>>>> 12d48c2bd3b586442d9dbed9a54860bf6c3133d0
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-<<<<<<< HEAD
                 "Logo\\LogoincHooks\\LogoincHooksServiceProvider"
-=======
-                "logo\\LogoincHooks\\LogoincHooksServiceProvider"
->>>>>>> 12d48c2bd3b586442d9dbed9a54860bf6c3133d0
             ]
         }
     }
